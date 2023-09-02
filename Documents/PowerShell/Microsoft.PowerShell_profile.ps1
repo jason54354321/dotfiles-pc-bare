@@ -40,6 +40,8 @@ Set-Alias .. "cd.."
 function git_dotfile_alias{git --git-dir=$HOME\dotfiles --work-tree=$HOME\ $args}
 Set-Alias config git_dotfile_alias
 
+function git_log_alias{git log --oneline --graph}
+Set-Alias glog git_log_alias
 
 # Go directory shortcut
 $mycode = "D:/aamycode"

@@ -111,8 +111,8 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialCols": 90,
-    "initialRows": 27,
+    "initialCols": 92,
+    "initialRows": 29,
     "newTabMenu": 
     [
         {
@@ -131,7 +131,7 @@
                 "face": "FiraCode Nerd Font",
                 "size": 14.0
             },
-            "opacity": 69,
+            "opacity": 68,
             "useAcrylic": true
         },
         "list": 
@@ -160,9 +160,7 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "opacity": 69,
-                "source": "Windows.Terminal.PowershellCore",
-                "useAcrylic": true
+                "source": "Windows.Terminal.PowershellCore"
             },
             {
                 "guid": "{80b5115b-0552-5afc-89d4-e89c377d3bdb}",

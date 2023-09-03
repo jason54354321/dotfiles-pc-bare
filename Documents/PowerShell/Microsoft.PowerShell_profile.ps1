@@ -43,6 +43,10 @@ Set-Alias config git_dotfile_alias
 function git_log_alias{git log --oneline --graph}
 Set-Alias glog git_log_alias
 
+Remove-Alias rm -Force
+function git_checkout_master{git checkout master}
+Set-Alias gm git_checkout_master -Force
+
 # Go directory shortcut
 $mycode = "D:/aamycode"
 function goMycode{ cd $mycode }

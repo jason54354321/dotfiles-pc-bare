@@ -25,7 +25,7 @@ oh-my-posh init pwsh --config $Theme| Invoke-Expression
 # uew
 # zash
 
-# Alias
+# Aliases
 Set-Alias v nvim
 Set-Alias vi nvim
 Set-Alias vim nvim
@@ -35,28 +35,31 @@ Remove-Alias sl -Force
 Set-Alias la ls -Force
 Set-Alias g git
 Set-Alias rn Rename-Item
-Set-Alias .. "cd.."
 
+# Navigate one directory level up
+Set-Alias .. "cd.."
+# Navigate multi directory levels up
+function cdup_2{cd ../..}
+function cdup_3{cd ../../..}
+Set-Alias ... cdup_2
+Set-Alias .... cdup_3
+
+# Bare dotfiles repo
 function git_dotfile_alias{git --git-dir=$HOME\dotfiles --work-tree=$HOME\ $args}
 Set-Alias config git_dotfile_alias
 
+# Git status
+function git_status{git status}
+Set-Alias gs git_status
+
+# Git log
 function git_log_alias{git log --oneline --graph}
 Set-Alias glog git_log_alias
 
+# Go master branch
 Remove-Alias rm -Force
 function git_checkout_master{git checkout master}
 Set-Alias gm git_checkout_master -Force
-
-# Go directory shortcut
-$mycode = "D:/aamycode"
-function goMycode{ cd $mycode }
-function goMycodeF{ cd $mycode/flutter }
-Set-Alias	mc goMycode
-Set-Alias	mcf goMycodeF
-
-$vimConfig = "~/.config/nvim"
-function vimVimConfig{ cd $vimConfig; vim init.vim}
-Set-Alias vmv vimVimConfig
 
 # Cmake setting
 $Env:CMAKE_GENERATOR = 'MinGW Makefiles'

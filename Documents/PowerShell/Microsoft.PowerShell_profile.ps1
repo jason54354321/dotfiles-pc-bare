@@ -57,7 +57,7 @@ function git_log_alias{git log --oneline --graph}
 Set-Alias glog git_log_alias
 
 # Go master branch
-Remove-Alias rm -Force
+Remove-Alias gm -Force
 function git_checkout_master{git checkout master}
 Set-Alias gm git_checkout_master -Force
 

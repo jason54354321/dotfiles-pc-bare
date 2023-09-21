@@ -46,6 +46,8 @@
 1. `PlugInstall` inside nvim.
     > [!NOTE]
     > `Golang`, `gcc`, `python3`, `LLVM(clang)` are needed to execute install all plugin properly.
+    
+1. Install `node (14)`:
   
 1. LSP:
     ```PowerShell

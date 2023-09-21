@@ -7,7 +7,16 @@
 ## PowerShell
 1. Copy "powershell\Microsoft.PowerShell_profile.ps1" to `$PROFILE`
 2. Copy "powershell\Microsoft.settings.json" to powershell's json folder
-3. Install plugins
+3. Download [scoop](https://scoop.sh/)
+```powershell
+    > Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
+    > irm get.scoop.sh | iex
+```
+4. Install [oh-my-posh](https://ohmyposh.dev/docs/installation/windows)
+```powershell
+    scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+```
+5. Install plugins
 ```powershell
     Install-Module -Name z;
     Install-Module posh-git;

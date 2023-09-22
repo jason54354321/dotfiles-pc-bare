@@ -57,6 +57,7 @@
     npm install -g dockerfile-language-server-nodejs
     npm install -g @microsoft/compose-language-service
     npm install -g pyright
+    npm install -g vls
     ```
 
 1. Telescope:

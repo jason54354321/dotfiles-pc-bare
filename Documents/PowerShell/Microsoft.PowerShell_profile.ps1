@@ -1,6 +1,9 @@
 # Prevent shell dingding sound
 Set-PSReadlineOption -BellStyle None
 
+# Smooth
+Set-PSReadLineOption -EditMode Emacs
+
 # Variables
 $Desktop = "C:/Users/jason/Desktop"
 

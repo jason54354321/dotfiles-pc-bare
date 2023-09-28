@@ -9,7 +9,7 @@ $Desktop = "C:/Users/jason/Desktop"
 
 # Prompt
 Import-Module posh-git
-Import-Module oh-my-posh
+# Import-Module oh-my-posh
 Import-Module Terminal-Icons
 $ThemeFolder = "C:\Users\jason\.config\oh-my-posh/themes/"
 $ThemeName = "amro-edited.omp.json"  

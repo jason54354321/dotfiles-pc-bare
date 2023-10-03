@@ -4,6 +4,15 @@
 2. Assign config folder to `~/.config/rime`
 2. Right click on `Rime` application icon and rebuild
 
+## Git
+```powershell
+    # IMPORTANT!!!
+    git config --global core.autocrlf false
+    git config --global pull.rebase true
+    git congit --global user.name "Jason"
+    git config --global core.editor "vim"
+```
+
 ## PowerShell
 1. Copy "powershell\Microsoft.PowerShell_profile.ps1" to `$PROFILE`
 2. Copy "powershell\Microsoft.settings.json" to powershell's json folder

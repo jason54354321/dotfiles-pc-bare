@@ -7,7 +7,7 @@
 ## Git
 ```powershell
     # IMPORTANT!!!
-    git config --global core.autocrlf false
+    git config --global core.autocrlf input
     git config --global pull.rebase true
     git congit --global user.name "Jason"
     git config --global core.editor "vim"

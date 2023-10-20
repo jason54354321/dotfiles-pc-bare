@@ -5,13 +5,13 @@ Set-PSReadlineOption -BellStyle None
 Set-PSReadLineOption -EditMode Emacs
 
 # Variables
-$Desktop = "C:/Users/jason/Desktop"
+$Desktop = "C:\Users\jason\Desktop"
 
 # Prompt
 Import-Module posh-git
 # Import-Module oh-my-posh
 Import-Module Terminal-Icons
-$ThemeFolder = "C:\Users\jason\.config\oh-my-posh/themes/"
+$ThemeFolder = "C:\Users\jason\.config\oh-my-posh\themes\"
 $ThemeName = "amro-edited.omp.json"  
 $Theme = $ThemeFolder + $ThemeName
 oh-my-posh init pwsh --config $Theme| Invoke-Expression

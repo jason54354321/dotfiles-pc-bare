@@ -1,3 +1,11 @@
+# Map Capslock to Escape
+> only work on windows 7, 8, 10
+```Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,46,00,01,00,3a,00,00,00,00,00
+```
+
+
 # dotfiles-pc-bare
 ## Rime
 1. Download .exe from [the link](https://rime.im/download/)

@@ -34,14 +34,6 @@
             "keys": "ctrl+alt+shift+4"
         },
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 3
-            },
-            "keys": "alt+4"
-        },
-        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -87,12 +79,24 @@
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 4
-            },
-            "keys": "ctrl+alt+shift+5"
+            "command": "unbound",
+            "keys": "alt+1"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+2"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+3"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+4"
+        },
+        {
+            "command": "unbound",
+            "keys": "alt+5"
         },
         {
             "command": 
@@ -100,7 +104,7 @@
                 "action": "switchToTab",
                 "index": 4
             },
-            "keys": "alt+5"
+            "keys": "ctrl+alt+shift+5"
         },
         {
             "command": 
@@ -114,14 +118,6 @@
             "command": 
             {
                 "action": "switchToTab",
-                "index": 0
-            },
-            "keys": "alt+1"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
                 "index": 1
             },
             "keys": "ctrl+alt+shift+2"
@@ -130,25 +126,9 @@
             "command": 
             {
                 "action": "switchToTab",
-                "index": 1
-            },
-            "keys": "alt+2"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
                 "index": 2
             },
             "keys": "ctrl+alt+shift+3"
-        },
-        {
-            "command": 
-            {
-                "action": "switchToTab",
-                "index": 2
-            },
-            "keys": "alt+3"
         },
         {
             "command": "closePane",

@@ -20,7 +20,7 @@ Create a file named `keys.reg`
     git config --global core.autocrlf input
     git config --global core.ignorecase false
     git config --global pull.rebase true
-    git congit --global user.name "Jason"
+    git congit --global user.name "Gustavo"
     git config --global core.editor "vim"
 ```
 

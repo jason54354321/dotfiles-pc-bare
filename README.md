@@ -55,6 +55,21 @@ Create a file named `keys.reg`
 2. Then source dotfile. 
     ```vim
     source ~/.config/nvim/init.vim
+
+    lua <<EOF
+    	local home
+    
+    	if jit.os == "Windows" then
+    		-- Windows 系統
+    		home = os.getenv("USERPROFILE")
+    	else
+    		-- Linux 系統
+    		home = os.getenv("HOME")
+    	end
+    
+    	dofile(home..'/.config/nvim/init.lua')
+    
+    EOF
     ```
 
 3. Install vim-plug:  
